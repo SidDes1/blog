@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Дневник лайфхаков и советов</title>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="media-queries.css" media="all and(max-width: 900px)">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <meta name="description" content="Лайфкахи и советы">
+	<meta name="keywords" content="Лайфхаки, советы, дневник, блог, уборка">
+</head>
+<body class="field">
+	<header>
+		<div class="title-name"><div class="text1"><span><a href="index.html" style="text-decoration: none; color: #fff;"> Дневник лайфхаков и советов</a></span></div></div>
+		<div id="toggle-icon"><i class="material-icons">menu</i></div>
+		<div class="menu-overlay">
+			<ul class="menu">
+				<li><a href="reciepts.html">Рецепты</li></a>
+				<li><a href="bathroom.html">Ванна</li></a>
+				<li><a href="musthave.html">Must have</li></a>
+				<li><a href="room.html">Комнаты</li></a>
+				<li><a href="kitchen.html">Кухня</li></a>
+				<li><a href="tehno.html">Техника</li></a>
+				<li><a href="kids.html">Дети</li></a>
+			</ul>
+			
+		</div>
+	</header>
+	<div class="container">
+		<div class="block"><a href="reciepts.html"> <img src="IMG_1507.JPG"></a></div>
+		<div class="block2"><a href="bathroom.html"> <img src="IMG_0405.JPG"></a></div>
+		<div class="block3"><a href="musthave.html"> <img src="IMG_7491.JPG"></a></div>
+		<div class="block4"><a href="room.html"><img src="8716696F-06E6-446A-8101-AFA7E98E029A.jpg"></a></div>
+		<div class="block5"><a href="kitchen.html"> <img src="IMG_0595.JPG"></a></div>
+		<div class="block6"><a href="tehno.html"><img src="IMG_0960.JPG"></a></div>
+		<div class="block7"><a href="kids.html"><img src="IMG_0345.JPG"></a></div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script>
+		$('#toggle-icon').click(function(){
+			$('.menu-overlay').toggleClass('active');
+			if ($('.menu-overlay').hasClass('active')) {
+				$('material-icons').text('menu_open');
+			}else{
+				$('material-icons').text('menu');
+			}
+	});
+//		$('#toggle-icon').click(function(){
+//			$('.menu-overlay').toggleClass('active');
+//			if ($('menu-overlay').hasClass('active')) {
+//				$('material-icons').text('menu_open');
+//			}else{
+//				$('material-icons').text('menu');			
+//	});     ТАК БЫЛО ДО ТОГО КАК Я ВЛЕЗ!!!
+	</script>
+	<footer>
+		<hr/>
+		<div class="end-over">
+			<div class="fb"><a href="https://www.facebook.com/pilipcova"><img src="iconfinder_Social-media_Facebook_4362964.png" style="border-radius:20px;"></a>
+			</div>
+			<div class="inst"><a href="https://www.instagram.com/yuliya__miloserdova/?hl=ru"><img src="iconfinder_Social-media_Instagram_4362962.png"></a>
+			</div>
+			<div class="tiktok"><a href="#"><img src="iconfinder_Social-media_Tiktok_4362958.png"></a>
+			</div>
+			<div class="contacts"><a href="contacts.html"><img src="contacts.png"></a></div>
+			<div class="first-list" data-title="На главную"><a class="open1" href="index.html"><img src="iconfinder_other-arrow-left-other-glyph_763233.png"></a></div>
+		</div>
+	</footer>
+</body>
+</html>

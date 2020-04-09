@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Дневник лайфхаков и советов</title>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style-room.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <meta name="description" content="Лайфкахи и советы">
+	<meta name="keywords" content="Лайфхаки, советы, дневник, блог, уборка">
+</head>
+<body class="field">
+	<header>
+		<div class="title-name"><div class="text1"><a href="index.html" style="text-decoration: none; color: #fff;">Дневник лайфхаков и советов</a></div></div>
+		<div id="toggle-icon"><i class="material-icons">menu</i></div>
+		<div class="menu-overlay">
+			<ul class="menu">
+				<li><a href="reciepts.html">Рецепты</li></a>
+				<li><a href="bathroom.html">Ванна</li></a>
+				<li><a href="musthave.html">Must have</li></a>
+				<li><a href="room.html">Комнаты</li></a>
+				<li><a href="kitchen.html">Кухня</li></a>
+				<li><a href="tehno.html">Техника</li></a>
+				<li><a href="kids.html">Дети</li></a>
+			</ul>
+		</div>
+	</header>
+		
+	<!--	<div class="main-first-row">-->
+		<div class="first-row">
+			<div class="photo1"><img src="27pic.png" alt="ребенок с игрушками сидит на ковре"></div>
+				<div class="first-text">
+					<p><strong>Всем привет!</strong></p><br>
+					<p><strong>Как очистить ковер от неприятного запаха</strong></p><br>
+					<p>Помню, как мечтали, что после переезда у нас не будет никаких ковров. Но уже спустя месяц поехали их покупать а потом еще около недели избавлялись от их запаха</p><br>
+					<p>В общем, как вы уже догадались, о об этом и будет пост.</p><br>
+					<p>Начну с запаха нового ковра, он связан с использованием различных средств, клея при производстве. Запах выветривается и сам за несколько дней, но чтобы ускорить этот процесс можно посыпать поверхность содой или крупной солью, оставить на ночь, а утром пропылесосить. Если же запах не уходит в течении 5-7 дней, даже при нахождении ковра на балконе или частом проветривании комнаты, то его лучше все-таки вернуть в магазин.</p><br>
+					<p>А для того, чтобы освежить уже любимый вами старый ковер, убрать с него пятна, если нет под рукой специальных средств, есть отличный и простой рецепт:<br></p>
+⠀				<ul>
+					<li>- 0,5 л. горячей воды (не кипяток);</li><br>
+					<li>- 1 ст. л. пищевой соды;</li><br>
+					<li>- 2 ст. л. 9% уксуса;</li><br>
+					<li>- 1 ст. л. моющего для посуды или стирального порошка.</li>
+⠀				</ul>
+					<p>Смешиваем все ингредиенты и получившийся раствор наливаем в пульверизатор, распыляем на ковер, особенно обильно на пятна, оставляем на пару минут. После этого чистим влажной губкой, даем высохнуть.</p><br>
+					<p>Этот же способ работает с запахами мочи, если у вас есть домашние животные</p><br>
+					<p><i>А у вас есть ковры? Или считаете их пылесборниками?</i></p>
+				</div>
+		</div><hr class="line1">
+		<div class="second-row">
+			<div class="photo2"><img src="28pic.png" alt="цветы на подоконнике"></div>
+				<div class="second-text"><p><strong>Моем и отбеливаем пластиковый подоконник</strong></p><br>
+					<p>За окном весна полным ходом, и когда как не весной, все приступают к мытью окон, стирке тюлей и штор, мытью подоконников, да и вообще проводят генеральную уборку.</p><br>
+					<p>Сегодня расскажу именно о мытье и отбеливании пластиковых подоконников:</p>
+					<ul>
+						<li>- Средство для мытья стекол. Сразу после мытья окон можно тем же средством помыть и подоконник;</li><br>
+						<li>- Стиральный порошок. Смешиваем его с горячей водой до образования кашицы, наносим, оставляем на пару минут, чистим губкой или щёткой и смываем;</li><br>
+						<li>- Пищевая сода. Так же как и в случае с порошком доводим до кашицеобразного состояния и моем ею поверхность;</li><br>
+						<li>- Белизна. Запах, конечно, будет стоять тот еще, но отбеливает подоконники отлично. Просто наносим, оставляем на 5-10 мин, вытираем. Также сработает и доместос, но его разводим 1:1 с водой;</li><br>
+						<li>Средства для чистки пластика. Специальные растворы, продаются в хозяйственных, строительных магазинах, используем просто согласно инструкции.</li>
+⠀					</ul>
+<p><i><strong>На этом всё!</strong><br>
+Так что у кого дети на карантине, не даем скучать, приобщаем к уборке, проводим время с пользой.</i></p>
+				</div>
+			</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script>
+		$('#toggle-icon').click(function(){
+			$('.menu-overlay').toggleClass('active');
+			if ($('.menu-overlay').hasClass('active')) {
+				$('material-icons').text('menu_open');
+			} else {
+				$('material-icons').text('menu');
+			}
+	});
+	</script>
+		<div>
+			
+		</div>
+	<footer>
+		<hr/>
+	<div class="end-over">
+		<div class="fb"><a href="https://www.facebook.com/pilipcova"><img src="iconfinder_Social-media_Facebook_4362964.png" style="border-radius:20px;"></a>
+		</div>
+		<div class="inst"><a href="https://www.instagram.com/yuliya__miloserdova/?hl=ru"><img src="iconfinder_Social-media_Instagram_4362962.png"></a>
+		</div>
+		<div class="tiktok"><a href="#"><img src="iconfinder_Social-media_Tiktok_4362958.png"></a>
+		</div>
+		<div class="contacts" ><a href="contacts.html"><img src="contacts.png"></a></div>
+		<div class="first-list" data-title="На главную"><a class="open1" href="index.html"><img src="iconfinder_other-arrow-left-other-glyph_763233.png"></a></div>
+	</div>
+	</footer>
+</body>
+</html>

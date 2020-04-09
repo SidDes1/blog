@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Дневник лайфхаков и советов</title>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style-contacts.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <meta name="description" content="Лайфкахи и советы">
+	<meta name="keywords" content="Лайфхаки, советы, дневник, блог, уборка">
+</head>
+<body class="field">
+	<header>
+		<div class="title-name"><div class="text1"><a href="index.html" style="text-decoration: none; color: #fff;">Дневник лайфхаков и советов</a></div></div>
+		<div id="toggle-icon"><i class="material-icons">menu</i></div>
+		<div class="menu-overlay">
+			<ul class="menu">
+				<li><a href="reciepts.html">Рецепты</li></a>
+				<li><a href="bathroom.html">Ванна</li></a>
+				<li><a href="musthave.html">Must have</li></a>
+				<li><a href="room.html">Комнаты</li></a>
+				<li><a href="kitchen.html">Кухня</li></a>
+				<li><a href="#">Техника</li></a>
+				<li><a href="#">Дети</li></a>
+			</ul>
+		</div>
+	</header>
+	<div class="menu-contacts">
+		<div class="face"><figure><img src="face.png"><figcaption>Это Я!</figcaption></figure></div>
+		
+	</div>
+	<div>
+		<ul class="abme">
+			<li>Вы можете писать личные сообщения<br> на LifeHakBlog@ukr.net;</li>
+			<li>Я всегда буду рада Вам помочь<br> и ценю Ваше внимание к тому, что я делаю!</li>
+			<li>По ссылкам ниже, Вы можете перейти на мои<br> страницы в социальных сетях.</li>
+		</ul>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script>
+		$('#toggle-icon').click(function(){
+			$('.menu-overlay').toggleClass('active');
+			if ($('.menu-overlay').hasClass('active')) {
+				$('material-icons').text('menu_open');
+			} else {
+				$('material-icons').text('menu');
+			}
+	});
+	</script>
+	<footer>
+		<hr/>
+	<div class="end-over">
+		<div class="fb"><a href="https://www.facebook.com/pilipcova"><img src="iconfinder_Social-media_Facebook_4362964.png" style="border-radius:20px;"></a>
+		</div>
+		<div class="inst"><a href="https://www.instagram.com/yuliya__miloserdova/?hl=ru"><img src="iconfinder_Social-media_Instagram_4362962.png"></a>
+		</div>
+		<div class="tiktok"><a href="#"><img src="iconfinder_Social-media_Tiktok_4362958.png"></a>
+		</div>
+		<div class="contacts" ><a href="contacts.html"><img src="contacts.png"></a></div>
+		<div class="first-list" data-title="На главную"><a class="open1" href="index.html"><img src="iconfinder_other-arrow-left-other-glyph_763233.png"></a></div>
+	</div>
+	</footer>
+</body>
+</html>
